@@ -11,7 +11,9 @@ contra2 = "a4s1"
 
 login = input('Ingrese su nombre de usuario: ')
 contra = input('Ingrese su contraseña: ')
-if (login == "pedro" and contra == "1234" or login == "angel" and contra == "a4s1"):
+if (login != "pedro" or contra != "1234") and (login != "angel" or contra != "a4s1"):
+    print('Su usuario o contraseña son incorrectos')
+else:
     print ('Bienvenido al sistema')
     print("ahora debera ingresar 3 notas para poder calcular su promedio")
     nota1 = int(input('Ingrese nota numero 1: '))
@@ -25,8 +27,7 @@ if (login == "pedro" and contra == "1234" or login == "angel" and contra == "a4s
     else:
         print("Usted ha reprobado")
 
-else:
-    print('Su usuario o contraseña son incorrectos')
-
+pregunta1 = int(input('Cual de los siguientes animales viven en el agua?\n 1)perro \n 2)cocodrilo \n 3)conejo \n 4)tiburon \n Ingrese el numero de su respuesta :'))
+#if (pregunta1)
 
 
