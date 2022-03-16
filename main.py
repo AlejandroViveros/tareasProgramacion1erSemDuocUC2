@@ -1,12 +1,18 @@
-print("Bienvenido al mundo de la programacion")
-nom = input("Para comenzar ingrese su nombre: ")
-print("Su nombre es: ", nom)
-numero = int(input("Ingrese el valor de x para resolver la ecuacion: "))
-ecuacion = (numero ** 2 + numero * 3 + 1) / 4
-print(ecuacion)
-print("Para continuar ingrese los siguientes datos")
-nombre = input("nombre: ")
-rut = input("rut: ")
-correo = input("correo: ")
-telefono = input("numero telefonico: ")
-print("Sus datos personales son:", nombre, rut, correo, telefono, sep="\n")
+operandoA = 3
+operandoB = 2
+suma = operandoA + operandoB
+#print("resultado de la suma: ",suma)
+print(f'resultado suma: {suma}')
+resta = operandoA - operandoB
+print(f'Resultado de la resta: {resta}')
+multiplicacion = operandoA*operandoB
+print(f'El resultado de la multiplicacion es: {multiplicacion}')
+division = operandoA/operandoB
+print(f'El resultado de la division es: {division}')
+#para que el resultado sea entero debe dividirse con "//"
+division2 = operandoA//operandoB
+print(f'El resultado de la division con resultado entero es : {division2}')
+operadorModulo = operandoA % operandoB
+print(f'El resultado de la operacion de modulo es :{operadorModulo}')
+exponente = operandoA**operandoB
+print(f'El resultado de la operacion exponente es: {exponente}')
