@@ -1,0 +1,12 @@
+print("Bienvenido al mundo de la programacion")
+nom = input("Para comenzar ingrese su nombre: ")
+print("Su nombre es: ", nom)
+numero = int(input("Ingrese el valor de x para resolver la ecuacion: "))
+ecuacion = (numero ** 2 + numero * 3 + 1) / 4
+print(ecuacion)
+print("Para continuar ingrese los siguientes datos")
+nombre = input("nombre: ")
+rut = input("rut: ")
+correo = input("correo: ")
+telefono = input("numero telefonico: ")
+print("Sus datos personales son:", nombre, rut, correo, telefono, sep="\n")
