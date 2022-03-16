@@ -4,10 +4,6 @@ if (edad >= 18):
     print("Usted es mayor de edad")
 else:
     print('es menor de edad')
-user1 = "pedro"
-user2 = "angel"
-contra1 = "1234"
-contra2 = "a4s1"
 
 login = input('Ingrese su nombre de usuario: ')
 contra = input('Ingrese su contraseña: ')
