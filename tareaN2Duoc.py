@@ -4,10 +4,6 @@ if (edad >= 18):
     print("Usted es mayor de edad")
 else:
     print('es menor de edad')
-user1 = "pedro"
-user2 = "angel"
-contra1 = "1234"
-contra2 = "a4s1"
 
 login = input('Ingrese su nombre de usuario: ')
 contra = input('Ingrese su contraseña: ')
@@ -27,7 +23,28 @@ else:
     else:
         print("Usted ha reprobado")
 
-pregunta1 = int(input('Cual de los siguientes animales viven en el agua?\n 1)perro \n 2)cocodrilo \n 3)conejo \n 4)tiburon \n Ingrese el numero de su respuesta :'))
-#if (pregunta1)
+puntaje = 0
+pregunta1 = input('Cual de los siguientes animales viven en el agua?\n 1)perro \n 2)cocodrilo \n 3)conejo \n 4)tiburon \n Escriba su respuesta :')
+if (pregunta1 == "cocodrilo"):
+    puntaje = puntaje + 0.5
+    print("El puntaje obtenido es: ", puntaje)
+elif(pregunta1 == "tiburon"):
+    puntaje1 = puntaje + 1
+    print("el puntaje obtenido es: ", puntaje1)
+else:
+    print("Lamentablemente ese animal no vive en el agua, su puntaje es", puntaje)
+    print("No se preocupe, quedan 3 preguntas")
+
+pregunta2 = input("Cual es el equipo con mas copas en la liga chilena? \n 1)ñublense \n 2)cobreloa \n 3)colo-colo \n 4)cobresal \n Escriba su respuesta : ")
+if (pregunta2 == "colo-colo"):
+    puntaje2 = puntaje1 + 1
+    print("Correcto!, el puntaje total es de: ", puntaje2)
+else:
+    puntaje2 = puntaje
+    print("No obtuvo puntos esta vez, su puntaje es: ", puntaje2)
+
+
+
+
 
 
